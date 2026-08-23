@@ -9,6 +9,33 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const data = JSON.parse(await readFile(join(root, 'data', 'contributions.json'), 'utf8'));
 const { external, own, user } = data;
 
+/**
+ * The landing page showcases current work; STATS.md keeps the whole record.
+ * Read from data/display.yml so the cut-off is a setting rather than a rule
+ * buried in this file.
+ */
+async function displayConfig() {
+  const text = await readFile(join(root, 'data', 'display.yml'), 'utf8').catch(() => '');
+  const since = /^landingSince:\s*(\S+)/m.exec(text)?.[1] ?? null;
+  const hide = [];
+  const block = /^hide:\s*(\[\s*\]|\n(?:\s+-\s*.+\n?)*)/m.exec(text);
+  if (block && !block[1].startsWith('[')) {
+    for (const line of block[1].split(/\r?\n/)) {
+      const item = /^\s+-\s*(.+?)\s*$/.exec(line);
+      if (item) hide.push(item[1].replace(/^["']|["']$/g, ''));
+    }
+  }
+  return { since, hide };
+}
+
+const display = await displayConfig();
+const featured = external.filter((c) => {
+  if (display.hide.includes(`${c.org}/${c.repo}#${c.number}`)) return false;
+  if (display.since && c.createdAt.slice(0, 10) < display.since) return false;
+  return true;
+});
+const earlier = external.length - featured.length;
+
 const count = (list, fn) => {
   const map = new Map();
   for (const item of list) {
@@ -32,6 +59,16 @@ await mkdir(join(root, 'assets'), { recursive: true });
 
 await writeFile(
   join(root, 'assets', 'outcomes.svg'),
+  stackedBar([
+    { label: 'merged', value: byState(featured, 'merged'), color: STATUS_COLORS.merged },
+    { label: 'open', value: byState(featured, 'open') + byState(featured, 'draft'), color: STATUS_COLORS.open },
+    { label: 'closed', value: byState(featured, 'closed'), color: STATUS_COLORS.closed },
+  ]),
+);
+
+// STATS.md shows the whole record, so it gets its own chart.
+await writeFile(
+  join(root, 'assets', 'outcomes-all.svg'),
   stackedBar([
     { label: 'merged', value: merged, color: STATUS_COLORS.merged },
     { label: 'open', value: open, color: STATUS_COLORS.open },
@@ -77,7 +114,7 @@ if (skills.length) {
 const date = (iso) => (iso ? iso.slice(0, 10) : '');
 const STATE_LABEL = { merged: 'merged', open: 'open', draft: 'draft', closed: 'closed' };
 
-const items = external
+const items = featured
   .map((c) => {
     const name = c.folder ? `[${c.title}](${c.folder})` : c.title;
     const meta = [
@@ -97,12 +134,13 @@ const readme = `# Open Source Contributions
 What I fixed, how I found it, and what I chose not to do. One writeup per
 contribution — the reasoning, not just the link.
 
-<img src="assets/outcomes.svg" alt="${merged} merged, ${open} open, ${closed} closed" width="720">
+<img src="assets/outcomes.svg" alt="Contribution outcomes" width="720">
 
 ## Contributions
 
 ${items}
 
+${earlier ? `\n${earlier} earlier contribution${earlier === 1 ? '' : 's'} ${earlier === 1 ? 'is' : 'are'} in the [full record](STATS.md).\n` : ''}
 ---
 
 [Full statistics and charts](STATS.md) · [My own projects](projects/) · [How this repo works](AGENTS.md)
@@ -138,7 +176,7 @@ Generated from \`data/contributions.json\`. Do not edit by hand — run \`npm ru
 | Review comments received | ${external.reduce((n, c) => n + (c.reviewComments || 0), 0)} |
 | Median days to merge | ${(() => { const d = external.filter(c => c.daysToMerge != null).map(c => c.daysToMerge).sort((a,b)=>a-b); return d.length ? d[Math.floor(d.length/2)] : '—'; })()} |
 
-<img src="assets/outcomes.svg" alt="Outcomes" width="720">
+<img src="assets/outcomes-all.svg" alt="Outcomes across every contribution" width="720">
 
 | Date | Project | Contribution | Category | Size | Status | PR |
 |---|---|---|---|---|---|---|
@@ -163,7 +201,7 @@ My own open-source projects are described in [projects/](projects/).
 
 await writeFile(join(root, 'STATS.md'), stats);
 
-console.log(`README: ${external.length} external contributions`);
+console.log(`README: ${featured.length} featured of ${external.length} external`);
 const built = ['outcomes', 'by-organisation', 'by-category'];
 if (languages.length) built.push('by-language');
 if (skills.length) built.push('by-skill');

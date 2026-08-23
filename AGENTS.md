@@ -26,6 +26,7 @@ contributions/<org>/<repo>/<number>-<slug>/README.md
                               HAND-WRITTEN — one writeup per contribution.
 data/projects.yml             HAND-WRITTEN — which of Roshan's projects to list,
                               and one line each. Nothing else.
+data/display.yml              HAND-WRITTEN — what the landing page showcases.
 
 scripts/                      sync, render, projects, chart, scaffold.
 ```
@@ -112,6 +113,19 @@ interesting writeups.
 **Keep the landing page minimal.** A chart and a list. Tables, statistics, and
 secondary charts belong in `STATS.md`. If the README starts growing sections,
 move them.
+
+**The landing page showcases current work; STATS.md keeps everything.**
+`data/display.yml` controls the split:
+
+```yaml
+landingSince: 2026-08-01   # only contributions from this date appear on the landing page
+hide: []                   # "<org>/<repo>#<number>" entries to keep off it regardless
+```
+
+Nothing there deletes anything — every contribution stays in
+`data/contributions.json` and in `STATS.md`, and the landing page says how many
+earlier ones exist and links to them. Never drop a contribution from the record
+to make the numbers look better, including a closed one.
 
 **Write in Roshan's voice.** First person, technical, concise. Concrete over
 abstract: real commands, real paths, real numbers. No marketing language, no

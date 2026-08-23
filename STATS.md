@@ -15,7 +15,7 @@ Generated from `data/contributions.json`. Do not edit by hand — run `npm run b
 | Review comments received | 0 |
 | Median days to merge | 0 |
 
-<img src="assets/outcomes.svg" alt="Outcomes" width="720">
+<img src="assets/outcomes-all.svg" alt="Outcomes across every contribution" width="720">
 
 | Date | Project | Contribution | Category | Size | Status | PR |
 |---|---|---|---|---|---|---|

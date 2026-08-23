@@ -1,0 +1,9 @@
+# Controls what the landing page showcases. Nothing here removes anything --
+# the full record always stays in STATS.md and data/contributions.json.
+
+# Only contributions opened on or after this date appear on the landing page.
+landingSince: 2026-08-01
+
+# Individual contributions to keep off the landing page regardless of date,
+# as "<org>/<repo>#<number>".
+hide: []
