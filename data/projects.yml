@@ -1,0 +1,14 @@
+# The only hand-maintained list in this repository: which of my own projects to
+# show, and one line on what each is for. Stars, downloads, language, and last
+# release are pulled live -- never write those here.
+- repo: roshaninfordham/agentskills
+  npm: openagentskills
+  blurb: >
+    Open library of portable skills for AI agents. Procedural knowledge any agent
+    can search and load on demand, via MCP, a CLI, or plain markdown. The MCP
+    server exposes two tools, so its context cost stays flat as the library grows.
+- repo: roshaninfordham/agentpackages
+  blurb: >
+    Monorepo for the openagent* family: small, focused, zero-dependency packages
+    for building and running AI agents. Tag-driven releases published by CI with
+    provenance.

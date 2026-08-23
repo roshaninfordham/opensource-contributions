@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="102" viewBox="0 0 720 102" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="0" y="18" font-size="14" font-weight="600" fill="#7d8590">Contributions by project</text>
+<text x="190" y="47" text-anchor="end" font-size="12" fill="#7d8590">BRutan/newslens-etl</text>
+<rect x="200" y="34" width="460" height="16" rx="3" fill="#57606a26"/>
+<rect x="200" y="34" width="460" height="16" rx="3" fill="#0969da"/>
+<text x="668" y="47" font-size="12" font-weight="600" fill="#7d8590">2</text>
+<text x="190" y="77" text-anchor="end" font-size="12" fill="#7d8590">ml-explore/mlx</text>
+<rect x="200" y="64" width="460" height="16" rx="3" fill="#57606a26"/>
+<rect x="200" y="64" width="230" height="16" rx="3" fill="#8250df"/>
+<text x="438" y="77" font-size="12" font-weight="600" fill="#7d8590">1</text>
+</svg>

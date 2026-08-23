@@ -1,0 +1,38 @@
+name: Sync contributions
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'    # every 6 hours, so status is never more than a few hours stale
+  push:
+    branches: [main]
+    paths: ['contributions/**', 'scripts/**', 'data/projects.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Sync from the GitHub API and re-render
+        run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git add README.md STATS.md data assets projects
+          git commit -m "Sync contribution status"
+          git push

@@ -1,0 +1,16 @@
+{
+  "name": "opensource-contributions",
+  "private": true,
+  "description": "Documented record of Roshan Sharma's open-source contributions.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "render": "node scripts/render.js",
+    "new": "node scripts/new.js",
+    "build": "npm run sync && npm run render && npm run projects",
+    "projects": "node scripts/projects.js"
+  }
+}
