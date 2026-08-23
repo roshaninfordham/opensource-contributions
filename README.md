@@ -7,6 +7,8 @@ contribution — the reasoning, not just the link.
 
 ## Contributions
 
+- **[\[Core\]\[Jobs\] Use the worker-local GCS client in JobSupervisor](contributions/ray-project/ray/65686-core-jobs-use-the-worker-local-gcs-client-in-jobsupervisor)**  
+  [ray-project/ray#65686](https://github.com/ray-project/ray/pull/65686) · distributed systems · open · 2026-08-23
 - **[Validate GGUF tensor dimensions](contributions/ml-explore/mlx/4378-validate-gguf-tensor-dimensions)**  
   [ml-explore/mlx#4378](https://github.com/ml-explore/mlx/pull/4378) · memory safety · open · 2026-08-23
 

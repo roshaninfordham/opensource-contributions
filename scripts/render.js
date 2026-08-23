@@ -112,11 +112,14 @@ if (skills.length) {
 
 // ---- README: deliberately minimal -------------------------------------
 const date = (iso) => (iso ? iso.slice(0, 10) : '');
+// Many projects prefix titles with tags like "[Core][Jobs]". Unescaped, those
+// brackets nest inside the markdown link and the link text is mis-parsed.
+const linkText = (s) => s.replace(/[[\]]/g, (c) => '\\' + c);
 const STATE_LABEL = { merged: 'merged', open: 'open', draft: 'draft', closed: 'closed' };
 
 const items = featured
   .map((c) => {
-    const name = c.folder ? `[${c.title}](${c.folder})` : c.title;
+    const name = c.folder ? `[${linkText(c.title)}](${c.folder})` : c.title;
     const meta = [
       `[${c.org}/${c.repo}#${c.number}](${c.url})`,
       c.category && c.category !== 'uncategorised' ? c.category : null,
@@ -153,7 +156,7 @@ await writeFile(join(root, 'README.md'), readme);
 // ---- STATS.md: everything that would clutter the landing page ----------
 const rows = external
   .map((c) => {
-    const title = c.folder ? `[${c.title}](${c.folder})` : c.title;
+    const title = c.folder ? `[${linkText(c.title)}](${c.folder})` : c.title;
     const size = c.additions != null ? `+${c.additions}/-${c.deletions}` : '—';
     return `| ${date(c.createdAt)} | [${c.org}/${c.repo}](https://github.com/${c.org}/${c.repo}) | ${title} | ${c.category || '—'} | ${size} | \`${c.state}\` | [#${c.number}](${c.url}) |`;
   })

@@ -1,7 +1,34 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-08-23T03:52:32.503Z",
+  "updatedAt": "2026-08-23T18:46:57.376Z",
   "external": [
+    {
+      "org": "ray-project",
+      "repo": "ray",
+      "number": 65686,
+      "title": "[Core][Jobs] Use the worker-local GCS client in JobSupervisor",
+      "url": "https://github.com/ray-project/ray/pull/65686",
+      "state": "open",
+      "createdAt": "2026-08-23T18:45:49Z",
+      "mergedAt": null,
+      "additions": 43,
+      "deletions": 8,
+      "changedFiles": 3,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": null,
+      "folder": "contributions/ray-project/ray/65686-core-jobs-use-the-worker-local-gcs-client-in-jobsupervisor",
+      "category": "distributed systems",
+      "skills": [
+        "Python",
+        "distributed systems",
+        "fault tolerance",
+        "pytest",
+        "Ray"
+      ],
+      "language": "Python",
+      "summary": "A successful Ray job was reported as FAILED after a head-node replacement, because the job supervisor held a GCS client pinned to the dead head's address."
+    },
     {
       "org": "ml-explore",
       "repo": "mlx",
