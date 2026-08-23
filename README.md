@@ -18,4 +18,4 @@ contribution — the reasoning, not just the link.
 
 [Full statistics and charts](STATS.md) · [My own projects](projects/) · [How this repo works](AGENTS.md)
 
-*Status synced from the GitHub API — last updated 2026-08-23.*
+*Status synced from the GitHub API — last changed 2026-08-23.*

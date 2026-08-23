@@ -107,7 +107,7 @@ ${items}
 
 [Full statistics and charts](STATS.md) · [My own projects](projects/) · [How this repo works](AGENTS.md)
 
-*Status synced from the GitHub API — last updated ${data.syncedAt.slice(0, 10)}.*
+*Status synced from the GitHub API — last changed ${(data.updatedAt || data.syncedAt).slice(0, 10)}.*
 `;
 
 await writeFile(join(root, 'README.md'), readme);
@@ -158,7 +158,7 @@ than the number is worth.
 
 My own open-source projects are described in [projects/](projects/).
 
-*Last synced ${data.syncedAt.slice(0, 10)}.*
+*Last synced ${(data.updatedAt || data.syncedAt).slice(0, 10)}.*
 `;
 
 await writeFile(join(root, 'STATS.md'), stats);

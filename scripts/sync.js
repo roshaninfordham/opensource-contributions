@@ -96,11 +96,32 @@ const sortByDate = (a, b) => new Date(b.createdAt) - new Date(a.createdAt);
 external.sort(sortByDate);
 own.sort(sortByDate);
 
+// Keep the previous timestamp when nothing else moved. A timestamp that always
+// changes defeats the "commit only on a real change" guard in CI, which would
+// otherwise commit four times a day forever and bury every real update.
+const outPath = join(root, 'data', 'contributions.json');
+const previous = await readFile(outPath, 'utf8').then(JSON.parse).catch(() => null);
+const payload = { user: USER, external, own };
+const unchanged =
+  previous &&
+  JSON.stringify({ user: previous.user, external: previous.external, own: previous.own }) ===
+    JSON.stringify(payload);
+
 await mkdir(join(root, 'data'), { recursive: true });
 await writeFile(
-  join(root, 'data', 'contributions.json'),
-  JSON.stringify({ user: USER, syncedAt: new Date().toISOString(), external, own }, null, 2) + '\n',
+  outPath,
+  JSON.stringify(
+    {
+      user: USER,
+      updatedAt: unchanged ? previous.updatedAt || previous.syncedAt : new Date().toISOString(),
+      external,
+      own,
+    },
+    null,
+    2,
+  ) + '\n',
 );
+if (unchanged) console.log('No change since the last sync.');
 
 const undocumented = external.filter((c) => !c.folder);
 console.log(`external: ${external.length}  own: ${own.length}`);
