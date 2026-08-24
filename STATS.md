@@ -12,7 +12,7 @@ Generated from `data/contributions.json`. Do not edit by hand — run `npm run b
 | Closed unmerged | 1 |
 | Projects | 3 |
 | Lines added | 1,095 |
-| Review comments received | 0 |
+| Review comments received | 2 |
 | Median days to merge | 0 |
 
 <img src="assets/outcomes-all.svg" alt="Outcomes across every contribution" width="720">
@@ -42,4 +42,4 @@ than the number is worth.
 
 My own open-source projects are described in [projects/](projects/).
 
-*Last synced 2026-08-23.*
+*Last synced 2026-08-24.*

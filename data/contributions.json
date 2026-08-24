@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-08-23T18:46:57.376Z",
+  "updatedAt": "2026-08-24T01:01:19.785Z",
   "external": [
     {
       "org": "ray-project",
@@ -15,7 +15,7 @@
       "deletions": 8,
       "changedFiles": 3,
       "commits": 1,
-      "reviewComments": 0,
+      "reviewComments": 2,
       "daysToMerge": null,
       "folder": "contributions/ray-project/ray/65686-core-jobs-use-the-worker-local-gcs-client-in-jobsupervisor",
       "category": "distributed systems",
