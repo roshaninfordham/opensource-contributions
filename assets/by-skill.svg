@@ -3,49 +3,49 @@
 <text x="190" y="47" text-anchor="end" font-size="12" fill="#7d8590">Python</text>
 <rect x="200" y="34" width="460" height="16" rx="3" fill="#57606a26"/>
 <rect x="200" y="34" width="460" height="16" rx="3" fill="#0969da"/>
-<text x="668" y="47" font-size="12" font-weight="600" fill="#7d8590">2</text>
+<text x="668" y="47" font-size="12" font-weight="600" fill="#7d8590">7</text>
 <text x="190" y="77" text-anchor="end" font-size="12" fill="#7d8590">pytest</text>
 <rect x="200" y="64" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="64" width="460" height="16" rx="3" fill="#8250df"/>
-<text x="668" y="77" font-size="12" font-weight="600" fill="#7d8590">2</text>
-<text x="190" y="107" text-anchor="end" font-size="12" fill="#7d8590">concurrency</text>
+<rect x="200" y="64" width="263" height="16" rx="3" fill="#8250df"/>
+<text x="471" y="77" font-size="12" font-weight="600" fill="#7d8590">4</text>
+<text x="190" y="107" text-anchor="end" font-size="12" fill="#7d8590">unittest</text>
 <rect x="200" y="94" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="94" width="230" height="16" rx="3" fill="#1a7f37"/>
-<text x="438" y="107" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<rect x="200" y="94" width="131" height="16" rx="3" fill="#1a7f37"/>
+<text x="339" y="107" font-size="12" font-weight="600" fill="#7d8590">2</text>
 <text x="190" y="137" text-anchor="end" font-size="12" fill="#7d8590">NumPy</text>
 <rect x="200" y="124" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="124" width="230" height="16" rx="3" fill="#bc4c00"/>
-<text x="438" y="137" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="167" text-anchor="end" font-size="12" fill="#7d8590">computer vision</text>
+<rect x="200" y="124" width="131" height="16" rx="3" fill="#bc4c00"/>
+<text x="339" y="137" font-size="12" font-weight="600" fill="#7d8590">2</text>
+<text x="190" y="167" text-anchor="end" font-size="12" fill="#7d8590">technical writing</text>
 <rect x="200" y="154" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="154" width="230" height="16" rx="3" fill="#cf222e"/>
-<text x="438" y="167" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="197" text-anchor="end" font-size="12" fill="#7d8590">distributed systems</text>
+<rect x="200" y="154" width="131" height="16" rx="3" fill="#cf222e"/>
+<text x="339" y="167" font-size="12" font-weight="600" fill="#7d8590">2</text>
+<text x="190" y="197" text-anchor="end" font-size="12" fill="#7d8590">pickle</text>
 <rect x="200" y="184" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="184" width="230" height="16" rx="3" fill="#1b7c83"/>
-<text x="438" y="197" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="227" text-anchor="end" font-size="12" fill="#7d8590">fault tolerance</text>
+<rect x="200" y="184" width="66" height="16" rx="3" fill="#1b7c83"/>
+<text x="274" y="197" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<text x="190" y="227" text-anchor="end" font-size="12" fill="#7d8590">PyTorch</text>
 <rect x="200" y="214" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="214" width="230" height="16" rx="3" fill="#6e7781"/>
-<text x="438" y="227" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="257" text-anchor="end" font-size="12" fill="#7d8590">Ray</text>
+<rect x="200" y="214" width="66" height="16" rx="3" fill="#6e7781"/>
+<text x="274" y="227" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<text x="190" y="257" text-anchor="end" font-size="12" fill="#7d8590">API design</text>
 <rect x="200" y="244" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="244" width="230" height="16" rx="3" fill="#0969da"/>
-<text x="438" y="257" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="287" text-anchor="end" font-size="12" fill="#7d8590">C++</text>
+<rect x="200" y="244" width="66" height="16" rx="3" fill="#0969da"/>
+<text x="274" y="257" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<text x="190" y="287" text-anchor="end" font-size="12" fill="#7d8590">YAML</text>
 <rect x="200" y="274" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="274" width="230" height="16" rx="3" fill="#8250df"/>
-<text x="438" y="287" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="317" text-anchor="end" font-size="12" fill="#7d8590">AddressSanitizer</text>
+<rect x="200" y="274" width="66" height="16" rx="3" fill="#8250df"/>
+<text x="274" y="287" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<text x="190" y="317" text-anchor="end" font-size="12" fill="#7d8590">data pipelines</text>
 <rect x="200" y="304" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="304" width="230" height="16" rx="3" fill="#1a7f37"/>
-<text x="438" y="317" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="347" text-anchor="end" font-size="12" fill="#7d8590">binary parsing</text>
+<rect x="200" y="304" width="66" height="16" rx="3" fill="#1a7f37"/>
+<text x="274" y="317" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<text x="190" y="347" text-anchor="end" font-size="12" fill="#7d8590">dependency management</text>
 <rect x="200" y="334" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="334" width="230" height="16" rx="3" fill="#bc4c00"/>
-<text x="438" y="347" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="377" text-anchor="end" font-size="12" fill="#7d8590">integer overflow</text>
+<rect x="200" y="334" width="66" height="16" rx="3" fill="#bc4c00"/>
+<text x="274" y="347" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<text x="190" y="377" text-anchor="end" font-size="12" fill="#7d8590">multimodal ML</text>
 <rect x="200" y="364" width="460" height="16" rx="3" fill="#57606a26"/>
-<rect x="200" y="364" width="230" height="16" rx="3" fill="#cf222e"/>
-<text x="438" y="377" font-size="12" font-weight="600" fill="#7d8590">1</text>
+<rect x="200" y="364" width="66" height="16" rx="3" fill="#cf222e"/>
+<text x="274" y="377" font-size="12" font-weight="600" fill="#7d8590">1</text>
 </svg>
