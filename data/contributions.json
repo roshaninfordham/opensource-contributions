@@ -1,7 +1,34 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-08-24T01:01:19.785Z",
+  "updatedAt": "2026-08-27T17:05:25.859Z",
   "external": [
+    {
+      "org": "roboflow",
+      "repo": "supervision",
+      "number": 2517,
+      "title": "fix(detection): merge InferenceSlicer results in source slice order",
+      "url": "https://github.com/roboflow/supervision/pull/2517",
+      "state": "open",
+      "createdAt": "2026-08-27T16:38:33Z",
+      "mergedAt": null,
+      "additions": 106,
+      "deletions": 13,
+      "changedFiles": 3,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": null,
+      "folder": "contributions/roboflow/supervision/2517-merge-inferenceslicer-results-in-source-slice-order",
+      "category": "concurrency",
+      "skills": [
+        "Python",
+        "concurrency",
+        "NumPy",
+        "pytest",
+        "computer vision"
+      ],
+      "language": "Python",
+      "summary": "Tiled inference collected thread results in completion order, so which of two overlapping detections survived NMS changed between runs on identical input."
+    },
     {
       "org": "ray-project",
       "repo": "ray",

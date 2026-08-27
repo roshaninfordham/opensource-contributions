@@ -6,12 +6,12 @@ Generated from `data/contributions.json`. Do not edit by hand — run `npm run b
 
 | | |
 |---|---|
-| Contributions | 4 |
+| Contributions | 5 |
 | Merged | 1 |
-| Open | 2 |
+| Open | 3 |
 | Closed unmerged | 1 |
-| Projects | 3 |
-| Lines added | 1,095 |
+| Projects | 4 |
+| Lines added | 1,201 |
 | Review comments received | 2 |
 | Median days to merge | 0 |
 
@@ -19,6 +19,7 @@ Generated from `data/contributions.json`. Do not edit by hand — run `npm run b
 
 | Date | Project | Contribution | Category | Size | Status | PR |
 |---|---|---|---|---|---|---|
+| 2026-08-27 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): merge InferenceSlicer results in source slice order](contributions/roboflow/supervision/2517-merge-inferenceslicer-results-in-source-slice-order) | concurrency | +106/-13 | `open` | [#2517](https://github.com/roboflow/supervision/pull/2517) |
 | 2026-08-23 | [ray-project/ray](https://github.com/ray-project/ray) | [\[Core\]\[Jobs\] Use the worker-local GCS client in JobSupervisor](contributions/ray-project/ray/65686-core-jobs-use-the-worker-local-gcs-client-in-jobsupervisor) | distributed systems | +43/-8 | `open` | [#65686](https://github.com/ray-project/ray/pull/65686) |
 | 2026-08-23 | [ml-explore/mlx](https://github.com/ml-explore/mlx) | [Validate GGUF tensor dimensions](contributions/ml-explore/mlx/4378-validate-gguf-tensor-dimensions) | memory safety | +135/-13 | `open` | [#4378](https://github.com/ml-explore/mlx/pull/4378) |
 | 2026-03-16 | [BRutan/newslens-etl](https://github.com/BRutan/newslens-etl) | Added logging across pipeline stages, consolidated shared utilities, … | — | +576/-283 | `closed` | [#2](https://github.com/BRutan/newslens-etl/pull/2) |
@@ -42,4 +43,4 @@ than the number is worth.
 
 My own open-source projects are described in [projects/](projects/).
 
-*Last synced 2026-08-24.*
+*Last synced 2026-08-27.*
