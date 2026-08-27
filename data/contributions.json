@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-08-27T18:14:50.288Z",
+  "updatedAt": "2026-08-27T21:39:42.202Z",
   "external": [
     {
       "org": "roboflow",
@@ -64,10 +64,10 @@
       "state": "open",
       "createdAt": "2026-08-27T17:58:01Z",
       "mergedAt": null,
-      "additions": 126,
+      "additions": 130,
       "deletions": 1,
       "changedFiles": 3,
-      "commits": 1,
+      "commits": 2,
       "reviewComments": 1,
       "daysToMerge": null,
       "folder": "contributions/roboflow/maestro/241-pass-an-explicit-factor-to-smart-resize-for-qwen25-vl",
@@ -116,10 +116,10 @@
       "state": "open",
       "createdAt": "2026-08-27T17:48:08Z",
       "mergedAt": null,
-      "additions": 13,
+      "additions": 17,
       "deletions": 7,
       "changedFiles": 1,
-      "commits": 1,
+      "commits": 2,
       "reviewComments": 1,
       "daysToMerge": null,
       "folder": "contributions/roboflow/rf-detr/1407-match-documented-dev-setup-and-test-commands-to-ci",
