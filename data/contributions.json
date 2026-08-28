@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-08-28T08:47:07.255Z",
+  "updatedAt": "2026-08-28T17:26:55.835Z",
   "external": [
     {
       "org": "roboflow",
@@ -194,15 +194,15 @@
       "number": 4378,
       "title": "Validate GGUF tensor dimensions",
       "url": "https://github.com/ml-explore/mlx/pull/4378",
-      "state": "open",
+      "state": "merged",
       "createdAt": "2026-08-23T03:21:02Z",
-      "mergedAt": null,
+      "mergedAt": "2026-08-28T12:10:01Z",
       "additions": 132,
       "deletions": 13,
       "changedFiles": 3,
       "commits": 2,
       "reviewComments": 0,
-      "daysToMerge": null,
+      "daysToMerge": 5,
       "folder": "contributions/ml-explore/mlx/4378-validate-gguf-tensor-dimensions",
       "category": "memory safety",
       "skills": [
