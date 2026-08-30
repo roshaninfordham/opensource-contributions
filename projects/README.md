@@ -13,7 +13,7 @@ Everything below except the descriptions is pulled live — see
 
 Open library of portable skills for AI agents. Procedural knowledge any agent can search and load on demand, via MCP, a CLI, or plain markdown. The MCP server exposes two tools, so its context cost stays flat as the library grows.
 
-JavaScript · 0★ · npm 0.1.0 · 140 downloads/mo · updated 2026-08-22
+JavaScript · 0★ · npm 0.1.0 · 148 downloads/mo · updated 2026-08-22
 
 ```bash
 npm install openagentskills
