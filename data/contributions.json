@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-09-02T02:37:02.099Z",
+  "updatedAt": "2026-09-02T15:53:04.666Z",
   "external": [
     {
       "org": "roboflow",
@@ -140,15 +140,15 @@
       "number": 2517,
       "title": "fix(detection): merge InferenceSlicer results in source slice order",
       "url": "https://github.com/roboflow/supervision/pull/2517",
-      "state": "open",
+      "state": "merged",
       "createdAt": "2026-08-27T16:38:33Z",
-      "mergedAt": null,
-      "additions": 106,
+      "mergedAt": "2026-09-02T14:15:01Z",
+      "additions": 165,
       "deletions": 13,
       "changedFiles": 3,
-      "commits": 1,
+      "commits": 3,
       "reviewComments": 1,
-      "daysToMerge": null,
+      "daysToMerge": 6,
       "folder": "contributions/roboflow/supervision/2517-merge-inferenceslicer-results-in-source-slice-order",
       "category": "concurrency",
       "skills": [

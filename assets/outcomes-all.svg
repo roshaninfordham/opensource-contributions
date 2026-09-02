@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="52" viewBox="0 0 720 52" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-<rect x="0" y="0" width="216" height="22" fill="#8250df"/>
-<rect x="216" y="0" width="432" height="22" fill="#1a7f37"/>
+<rect x="0" y="0" width="288" height="22" fill="#8250df"/>
+<rect x="288" y="0" width="360" height="22" fill="#1a7f37"/>
 <rect x="648" y="0" width="72" height="22" fill="#cf222e"/>
 <rect x="0" y="32" width="9" height="9" rx="2" fill="#8250df"/>
-<text x="14" y="41" font-size="12" fill="#7d8590">merged 3</text>
+<text x="14" y="41" font-size="12" fill="#7d8590">merged 4</text>
 <rect x="74.8" y="32" width="9" height="9" rx="2" fill="#1a7f37"/>
-<text x="88.8" y="41" font-size="12" fill="#7d8590">open 6</text>
+<text x="88.8" y="41" font-size="12" fill="#7d8590">open 5</text>
 <rect x="136.39999999999998" y="32" width="9" height="9" rx="2" fill="#cf222e"/>
 <text x="150.39999999999998" y="41" font-size="12" fill="#7d8590">closed 1</text>
 </svg>
