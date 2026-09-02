@@ -20,7 +20,7 @@ contribution — the reasoning, not just the link.
 - **[fix(detection): merge InferenceSlicer results in source slice order](contributions/roboflow/supervision/2517-merge-inferenceslicer-results-in-source-slice-order)**  
   [roboflow/supervision#2517](https://github.com/roboflow/supervision/pull/2517) · concurrency · open · 2026-08-27
 - **[\[Core\]\[Jobs\] Use the worker-local GCS client in JobSupervisor](contributions/ray-project/ray/65686-core-jobs-use-the-worker-local-gcs-client-in-jobsupervisor)**  
-  [ray-project/ray#65686](https://github.com/ray-project/ray/pull/65686) · distributed systems · open · 2026-08-23
+  [ray-project/ray#65686](https://github.com/ray-project/ray/pull/65686) · distributed systems · merged · 2026-08-23
 - **[Validate GGUF tensor dimensions](contributions/ml-explore/mlx/4378-validate-gguf-tensor-dimensions)**  
   [ml-explore/mlx#4378](https://github.com/ml-explore/mlx/pull/4378) · memory safety · merged · 2026-08-23
 
@@ -31,4 +31,4 @@ contribution — the reasoning, not just the link.
 
 [Full statistics and charts](STATS.md) · [My own projects](projects/) · [How this repo works](AGENTS.md)
 
-*Status synced from the GitHub API — last changed 2026-08-28.*
+*Status synced from the GitHub API — last changed 2026-09-02.*
