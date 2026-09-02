@@ -16,7 +16,7 @@ contribution — the reasoning, not just the link.
 - **[docs: give the Quickstart and Changelog nav entries real pages](contributions/roboflow/roboflow-python/521-give-the-quickstart-and-changelog-nav-entries-real-pages)**  
   [roboflow/roboflow-python#521](https://github.com/roboflow/roboflow-python/pull/521) · developer experience · open · 2026-08-27
 - **[docs: match documented dev setup and test commands to CI](contributions/roboflow/rf-detr/1407-match-documented-dev-setup-and-test-commands-to-ci)**  
-  [roboflow/rf-detr#1407](https://github.com/roboflow/rf-detr/pull/1407) · developer experience · open · 2026-08-27
+  [roboflow/rf-detr#1407](https://github.com/roboflow/rf-detr/pull/1407) · developer experience · merged · 2026-08-27
 - **[fix(detection): merge InferenceSlicer results in source slice order](contributions/roboflow/supervision/2517-merge-inferenceslicer-results-in-source-slice-order)**  
   [roboflow/supervision#2517](https://github.com/roboflow/supervision/pull/2517) · concurrency · merged · 2026-08-27
 - **[\[Core\]\[Jobs\] Use the worker-local GCS client in JobSupervisor](contributions/ray-project/ray/65686-core-jobs-use-the-worker-local-gcs-client-in-jobsupervisor)**  

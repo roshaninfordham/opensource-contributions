@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-09-02T15:53:04.666Z",
+  "updatedAt": "2026-09-02T20:27:13.758Z",
   "external": [
     {
       "org": "roboflow",
@@ -113,15 +113,15 @@
       "number": 1407,
       "title": "docs: match documented dev setup and test commands to CI",
       "url": "https://github.com/roboflow/rf-detr/pull/1407",
-      "state": "open",
+      "state": "merged",
       "createdAt": "2026-08-27T17:48:08Z",
-      "mergedAt": null,
+      "mergedAt": "2026-09-02T20:19:58Z",
       "additions": 17,
       "deletions": 7,
       "changedFiles": 1,
-      "commits": 2,
+      "commits": 4,
       "reviewComments": 3,
-      "daysToMerge": null,
+      "daysToMerge": 6,
       "folder": "contributions/roboflow/rf-detr/1407-match-documented-dev-setup-and-test-commands-to-ci",
       "category": "developer experience",
       "skills": [
