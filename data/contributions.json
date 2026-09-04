@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-09-02T20:27:13.758Z",
+  "updatedAt": "2026-09-04T10:28:41.755Z",
   "external": [
     {
       "org": "roboflow",
@@ -63,13 +63,6 @@
       "url": "https://github.com/roboflow/maestro/pull/241",
       "state": "open",
       "createdAt": "2026-08-27T17:58:01Z",
-      "mergedAt": null,
-      "additions": 130,
-      "deletions": 1,
-      "changedFiles": 3,
-      "commits": 2,
-      "reviewComments": 1,
-      "daysToMerge": null,
       "folder": "contributions/roboflow/maestro/241-pass-an-explicit-factor-to-smart-resize-for-qwen25-vl",
       "category": "dependency management",
       "skills": [
