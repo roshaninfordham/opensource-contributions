@@ -27,4 +27,4 @@ Monorepo for the openagent* family: small, focused, zero-dependency packages for
 
 JavaScript · 0★ · updated 2026-08-23
 
-*Last synced 2026-09-03.*
+*Last synced 2026-09-04.*
