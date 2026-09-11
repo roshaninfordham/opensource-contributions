@@ -48,4 +48,4 @@ than the number is worth.
 
 My own open-source projects are described in [projects/](projects/).
 
-*Last synced 2026-09-04.*
+*Last synced 2026-09-11.*
