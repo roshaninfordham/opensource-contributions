@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-09-12T02:53:26.505Z",
+  "updatedAt": "2026-09-12T20:07:00.331Z",
   "external": [
     {
       "org": "roboflow",
@@ -251,6 +251,40 @@
     }
   ],
   "own": [
+    {
+      "org": "roshaninfordham",
+      "repo": "evoweb",
+      "number": 10,
+      "title": "evo: Compare products",
+      "url": "https://github.com/roshaninfordham/evoweb/pull/10",
+      "state": "merged",
+      "createdAt": "2026-09-12T17:31:22Z",
+      "mergedAt": "2026-09-12T17:31:51Z",
+      "additions": 37,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "TypeScript"
+    },
+    {
+      "org": "roshaninfordham",
+      "repo": "evoweb",
+      "number": 9,
+      "title": "evo: Price filter",
+      "url": "https://github.com/roshaninfordham/evoweb/pull/9",
+      "state": "merged",
+      "createdAt": "2026-09-12T17:26:32Z",
+      "mergedAt": "2026-09-12T17:27:03Z",
+      "additions": 22,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "TypeScript"
+    },
     {
       "org": "roshaninfordham",
       "repo": "evoweb",
