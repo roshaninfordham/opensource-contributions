@@ -7,6 +7,8 @@ contribution — the reasoning, not just the link.
 
 ## Contributions
 
+- **[fix(mcp): stop interpolating notification text into AppleScript/PowerShell](contributions/google/artemis/149-fix-mcp-stop-interpolating-notification-text-into-applescrip)**  
+  [google/artemis#149](https://github.com/google/artemis/pull/149) · security · open · 2026-09-22
 - **[fix: explain why a legacy YOLO checkpoint fails to unpickle](contributions/roboflow/roboflow-python/523-explain-why-a-legacy-yolo-checkpoint-fails-to-unpickle)**  
   [roboflow/roboflow-python#523](https://github.com/roboflow/roboflow-python/pull/523) · error handling · open · 2026-08-27
 - **[fix: rewrite the test split path for yolov5 and yolov7 downloads](contributions/roboflow/roboflow-python/522-rewrite-the-test-split-path-for-yolov5-and-yolov7-downloads)**  
@@ -31,4 +33,4 @@ contribution — the reasoning, not just the link.
 
 [Full statistics and charts](STATS.md) · [My own projects](projects/) · [How this repo works](AGENTS.md)
 
-*Status synced from the GitHub API — last changed 2026-09-12.*
+*Status synced from the GitHub API — last changed 2026-09-22.*
