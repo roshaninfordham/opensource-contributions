@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-09-22T19:13:08.207Z",
+  "updatedAt": "2026-09-23T01:35:02.158Z",
   "external": [
     {
       "org": "google",
@@ -11,10 +11,10 @@
       "state": "open",
       "createdAt": "2026-09-22T19:12:03Z",
       "mergedAt": null,
-      "additions": 98,
-      "deletions": 8,
+      "additions": 142,
+      "deletions": 9,
       "changedFiles": 2,
-      "commits": 1,
+      "commits": 2,
       "reviewComments": 0,
       "daysToMerge": null,
       "folder": "contributions/google/artemis/149-fix-mcp-stop-interpolating-notification-text-into-applescrip",
@@ -24,10 +24,10 @@
         "subprocess",
         "AppleScript",
         "PowerShell",
-        "shell injection"
+        "text encoding"
       ],
       "language": "Python",
-      "summary": "Desktop toast notifications built AppleScript/PowerShell source by f-string interpolation, so a quote or newline in agent-generated text ran as its own statement; fixed by passing text through the environment instead of the script source."
+      "summary": "Desktop toast notifications built AppleScript/PowerShell source by interpolation, so a quote or newline in the input ran as its own statement; fixed by passing text as argv/env values instead of splicing it into the script source."
     },
     {
       "org": "roboflow",

@@ -11,7 +11,7 @@ Generated from `data/contributions.json`. Do not edit by hand — run `npm run b
 | Open | 5 |
 | Closed unmerged | 1 |
 | Projects | 5 |
-| Lines added | 1,609 |
+| Lines added | 1,653 |
 | Review comments received | 7 |
 | Median days to merge | 6 |
 
@@ -19,7 +19,7 @@ Generated from `data/contributions.json`. Do not edit by hand — run `npm run b
 
 | Date | Project | Contribution | Category | Size | Status | PR |
 |---|---|---|---|---|---|---|
-| 2026-09-22 | [google/artemis](https://github.com/google/artemis) | [fix(mcp): stop interpolating notification text into AppleScript/PowerShell](contributions/google/artemis/149-fix-mcp-stop-interpolating-notification-text-into-applescrip) | security | +98/-8 | `open` | [#149](https://github.com/google/artemis/pull/149) |
+| 2026-09-22 | [google/artemis](https://github.com/google/artemis) | [fix(mcp): stop interpolating notification text into AppleScript/PowerShell](contributions/google/artemis/149-fix-mcp-stop-interpolating-notification-text-into-applescrip) | security | +142/-9 | `open` | [#149](https://github.com/google/artemis/pull/149) |
 | 2026-08-27 | [roboflow/roboflow-python](https://github.com/roboflow/roboflow-python) | [fix: explain why a legacy YOLO checkpoint fails to unpickle](contributions/roboflow/roboflow-python/523-explain-why-a-legacy-yolo-checkpoint-fails-to-unpickle) | error handling | +50/-1 | `open` | [#523](https://github.com/roboflow/roboflow-python/pull/523) |
 | 2026-08-27 | [roboflow/roboflow-python](https://github.com/roboflow/roboflow-python) | [fix: rewrite the test split path for yolov5 and yolov7 downloads](contributions/roboflow/roboflow-python/522-rewrite-the-test-split-path-for-yolov5-and-yolov7-downloads) | correctness | +49/-0 | `open` | [#522](https://github.com/roboflow/roboflow-python/pull/522) |
 | 2026-08-27 | [roboflow/maestro](https://github.com/roboflow/maestro) | [fix: pass an explicit factor to smart_resize for Qwen2.5-VL](contributions/roboflow/maestro/241-pass-an-explicit-factor-to-smart-resize-for-qwen25-vl) | dependency management | +130/-1 | `open` | [#241](https://github.com/roboflow/maestro/pull/241) |
@@ -49,4 +49,4 @@ than the number is worth.
 
 My own open-source projects are described in [projects/](projects/).
 
-*Last synced 2026-09-22.*
+*Last synced 2026-09-23.*

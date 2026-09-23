@@ -32,7 +32,7 @@
 <rect x="200" y="244" width="460" height="16" rx="3" fill="#57606a26"/>
 <rect x="200" y="244" width="58" height="16" rx="3" fill="#0969da"/>
 <text x="266" y="257" font-size="12" font-weight="600" fill="#7d8590">1</text>
-<text x="190" y="287" text-anchor="end" font-size="12" fill="#7d8590">shell injection</text>
+<text x="190" y="287" text-anchor="end" font-size="12" fill="#7d8590">text encoding</text>
 <rect x="200" y="274" width="460" height="16" rx="3" fill="#57606a26"/>
 <rect x="200" y="274" width="58" height="16" rx="3" fill="#8250df"/>
 <text x="266" y="287" font-size="12" font-weight="600" fill="#7d8590">1</text>
