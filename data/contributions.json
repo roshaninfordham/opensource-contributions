@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-11-03T13:31:30.913Z",
+  "updatedAt": "2026-11-03T22:49:55.661Z",
   "external": [
     {
       "org": "google",
@@ -490,6 +490,13 @@
       "url": "https://github.com/roshaninfordham/test/pull/1",
       "state": "open",
       "createdAt": "2026-06-27T20:35:15Z",
+      "mergedAt": null,
+      "additions": 930,
+      "deletions": 0,
+      "changedFiles": 22,
+      "commits": 1,
+      "reviewComments": 11,
+      "daysToMerge": null,
       "language": ""
     },
     {
