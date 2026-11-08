@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-11-03T22:49:55.661Z",
+  "updatedAt": "2026-11-08T04:07:41.597Z",
   "external": [
     {
       "org": "google",
@@ -278,6 +278,57 @@
     }
   ],
   "own": [
+    {
+      "org": "roshaninfordham",
+      "repo": "opencomputemesh",
+      "number": 3,
+      "title": "Fix the release notes heredoc eating asset names",
+      "url": "https://github.com/roshaninfordham/opencomputemesh/pull/3",
+      "state": "merged",
+      "createdAt": "2026-11-08T00:18:35Z",
+      "mergedAt": "2026-11-08T00:22:04Z",
+      "additions": 11,
+      "deletions": 7,
+      "changedFiles": 1,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "Python"
+    },
+    {
+      "org": "roshaninfordham",
+      "repo": "opencomputemesh",
+      "number": 2,
+      "title": "Name release downloads for the machine, not the toolchain",
+      "url": "https://github.com/roshaninfordham/opencomputemesh/pull/2",
+      "state": "merged",
+      "createdAt": "2026-11-08T00:11:47Z",
+      "mergedAt": "2026-11-08T00:15:03Z",
+      "additions": 52,
+      "deletions": 21,
+      "changedFiles": 4,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "Python"
+    },
+    {
+      "org": "roshaninfordham",
+      "repo": "opencomputemesh",
+      "number": 1,
+      "title": "Conversations with a receipt per turn",
+      "url": "https://github.com/roshaninfordham/opencomputemesh/pull/1",
+      "state": "merged",
+      "createdAt": "2026-11-08T00:03:29Z",
+      "mergedAt": "2026-11-08T00:06:38Z",
+      "additions": 366,
+      "deletions": 209,
+      "changedFiles": 10,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "Python"
+    },
     {
       "org": "roshaninfordham",
       "repo": "evoweb",
