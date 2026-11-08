@@ -1,6 +1,6 @@
 {
   "user": "roshaninfordham",
-  "updatedAt": "2026-11-08T04:07:41.597Z",
+  "updatedAt": "2026-11-08T21:37:41.826Z",
   "external": [
     {
       "org": "google",
@@ -278,6 +278,40 @@
     }
   ],
   "own": [
+    {
+      "org": "roshaninfordham",
+      "repo": "opencomputemesh",
+      "number": 5,
+      "title": "install: one command for the node agent",
+      "url": "https://github.com/roshaninfordham/opencomputemesh/pull/5",
+      "state": "merged",
+      "createdAt": "2026-11-08T15:11:55Z",
+      "mergedAt": "2026-11-08T15:15:48Z",
+      "additions": 415,
+      "deletions": 29,
+      "changedFiles": 8,
+      "commits": 2,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "Python"
+    },
+    {
+      "org": "roshaninfordham",
+      "repo": "opencomputemesh",
+      "number": 4,
+      "title": "web: four places instead of six",
+      "url": "https://github.com/roshaninfordham/opencomputemesh/pull/4",
+      "state": "merged",
+      "createdAt": "2026-11-08T14:34:50Z",
+      "mergedAt": "2026-11-08T14:38:04Z",
+      "additions": 176,
+      "deletions": 167,
+      "changedFiles": 6,
+      "commits": 1,
+      "reviewComments": 0,
+      "daysToMerge": 0,
+      "language": "Python"
+    },
     {
       "org": "roshaninfordham",
       "repo": "opencomputemesh",
